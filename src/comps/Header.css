@@ -1,0 +1,56 @@
+/* src/Header.css */
+@font-face {
+    font-family: 'Mondwest';
+    src: url('../assets/PPMondwest-Regular.otf') format('opentype'); /* Adjust path based on your project structure */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.header {
+    background-color: rgba(51, 51, 51, 0.8);
+    padding: 0px 20px;
+    color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 1px solid white;
+    height: 80px;
+    font-family: 'Mondwest', sans-serif;
+    letter-spacing: 0.075cm;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1700px;
+    margin: 0 auto;
+    height: 80px;
+  }
+
+  .Logo {
+    height: 100px;
+  }
+  
+  .links {
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .links li {
+    display: inline;
+  }
+  
+  .links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
