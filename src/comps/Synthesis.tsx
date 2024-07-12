@@ -2,14 +2,17 @@ export default function Synthesis(){
     return (
         <div className = "Synthesis">
             <h1>What I learned</h1>
-            "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti 
-            atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique 
-            sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum 
-            facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit 
-            quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. 
-            Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates 
-            repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis 
-            voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+            Throughout my internship at Fasttrack Solutions Inc., I gained valuable insights into the workings of a consulting company and my role as a 
+            Computer Science professional. I acquired hands-on experience with ERP systems, learned JavaScript and its application in NetSuite, and 
+            participated in a real project with a team, where I honed my communication skills as part of the CODEX training program. <br /><br />
+            Working within a team highlighted the importance of each role and the challenges that arise when one member is unavailable, emphasizing 
+            the necessity for versatility and adaptability. I also learned the value of acquiring knowledge beyond my core Computer Science skills, 
+            as it aids in effectively verifying and improving my work output. This experience demonstrated that skills developed during my Computer 
+            Science studies are applicable and valuable across various industries, even those not primarily focused on technology. <br /><br />
+            In conclusion, my internship at Fasttrack Solutions Inc. has been an enriching experience that has broadened my understanding of the 
+            consulting industry and enhanced my technical and soft skills. It has prepared me for future professional challenges, reinforcing the 
+            importance of continuous learning and adaptability in a dynamic work environment.
+
         </div>
     )
 }

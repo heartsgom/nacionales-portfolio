@@ -9,7 +9,7 @@ export default function Header(){
                 <img src={logo} alt='logo' className='Logo' />
                 <nav>
                     <ul className = "links">
-                        <li key="Output"><Link to ={"/Output"}>Practicum</Link></li>
+                        <li key="Overview"><Link to ={"/Overview"}>Practicum</Link></li>
                         <li key="Output"><Link to ={"/Output"}>Output</Link></li>
                         <li key="Synthesis"><Link to ={"/Synthesis"}>Synthesis</Link></li>
                         <li key="Documents"><Link to ={"/Documents"}>Documents</Link></li>
