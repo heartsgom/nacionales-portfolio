@@ -1,7 +1,7 @@
 /* src/Header.css */
 @font-face {
-    font-family: 'Mondwest';
-    src: url('../assets/PPMondwest-Regular.otf') format('opentype'); /* Adjust path based on your project structure */
+    font-family: 'Sans';
+    src: url('../assets/Sans.otf') format('opentype'); /* Adjust path based on your project structure */
     font-weight: normal;
     font-style: normal;
   }
@@ -17,8 +17,7 @@
     z-index: 1000;
     border-bottom: 1px solid white;
     height: 80px;
-    font-family: 'Mondwest', sans-serif;
-    letter-spacing: 0.075cm;
+    font-family: 'Sans', sans-serif;
   }
   
   .header-content {
