@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/Helvetica/Helvetica.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Helvetica Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/Helvetica/Helvetica-Oblique.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Helvetica Compressed';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/Helvetica/helvetica-compressed-5871d14b6903a.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Helvetica Rounded Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/Helvetica/helvetica-rounded-bold-5871d05ead8de.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Helvetica Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/Helvetica/Helvetica-Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Helvetica Bold Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/Helvetica/Helvetica-BoldOblique.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Helvetica Light';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/Helvetica/helvetica-light-587ebe5a59211.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'Sans';
+    src: url('../assets/Sans.otf') format('opentype'); /* Adjust path based on your project structure */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.Overview {
+    font-family: 'Helvetica';
+    font-weight: normal;
+    text-align: justify;
+    text-justify: auto;
+    font-size: medium;
+    max-width: 700px;
+  }
+
+.Overview h1 {
+    text-align: left;
+    font-family: 'Helvetica Bold';
+    font-weight: normal;
+}
+
+.Output {
+    font-family: 'Helvetica';
+    font-weight: normal;
+    text-align: justify;
+    text-justify: auto;
+    font-size: medium;
+    max-width: 700px;
+  }
+
+.Output h1 {
+    text-align: right;
+    font-family: 'Helvetica Bold';
+    font-weight: normal;
+}
+
+.Synthesis {
+    font-family: 'Helvetica';
+    font-weight: normal;
+    text-align: justify;
+    text-justify: auto;
+    font-size: medium;
+    max-width: 700px;
+  }
+
+.Synthesis h1 {
+    text-align: left;
+    font-family: 'Helvetica Bold';
+    font-weight: normal;
+}
+
