@@ -24,7 +24,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1700px;
+    width: 90%;
     margin: 0 auto;
     height: 80px;
   }
@@ -51,5 +51,5 @@
   }
   
   .links a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
