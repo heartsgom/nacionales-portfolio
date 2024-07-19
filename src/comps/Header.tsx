@@ -9,8 +9,8 @@ export default function Header(){
                 <img src={logo} alt='logo' className='Logo' />
                 <nav>
                     <ul className = "links">
-                        <li key="Portfolio"><Link to ={"/Portfolio"}>Portfolio</Link></li>
-                        <li key="Overview"><Link to ={"/"}>Practicum</Link></li>
+                        <li key="Portfolio"><Link to ={"/"}>Portfolio</Link></li>
+                        <li key="Overview"><Link to ={"/Practicum"}>Practicum</Link></li>
                     </ul>
                 </nav>
             </div>

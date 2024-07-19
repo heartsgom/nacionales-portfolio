@@ -16,8 +16,8 @@ function App() {
       <Header />
         <div className="mainContent">
         <Routes>
-          <Route path="/" element={<Practicum />}/>
-          <Route path="/Portfolio" element={<Portfolio />}/>
+          <Route path="/" element={<Portfolio />}/>
+          <Route path="/Practicum" element={<Practicum />}/>
           <Route path="/Overview" element={<Overview />}/>
           <Route path="/Output" element={<Output />}/>
           <Route path="/Synthesis" element={<Synthesis />}/>

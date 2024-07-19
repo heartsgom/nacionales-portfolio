@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: linear-gradient(to right, 90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+.ProjectListGrid{
+    margin-top: 2rem;
+    max-height: 300px;
+    max-width: 700px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background: white;
+    padding: 3rem 3rem;
+    color: black;
+}
+
+.card h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.card p{
+    padding-top: 1rem;
+    line-height: 150%;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.expanded {
+    width: 30rem;
+}
