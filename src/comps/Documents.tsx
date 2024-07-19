@@ -1,20 +1,19 @@
-import DocViewer, {DocViewerRenderers} from "react-doc-viewer"
+
+import { Document, Page} from "react-pdf";
+import practicumReport from "../assets/PracticumReportNacionales.pdf";
+import resume from "../assets/Nacionales_Resume.pdf";
+import './DocViewer.css';
 
 
 export default function Documents(){
-
-    const docs = [
-        { uri: ("../assets/Practicum Report Nacionales.pdf") },
-        { uri: ("../assets/Nacionales_Resume.pdf") },
-    ]
-
-
     return (
         <>
             <div className = "Documents">
                 <h1>Documents</h1>
-                Here are all the related documents in my practium:
-                <DocViewer documents={docs} pluginRenderers={DocViewerRenderers} />
+                <p>Here are all the related documents in my practium:</p>
+                
+                <p><a href = {practicumReport} target="_blank"> Practicum Report </a></p>
+                <p><a href = {resume} target="_blank"> My Resume </a></p>
             </div>
         </>
     )
