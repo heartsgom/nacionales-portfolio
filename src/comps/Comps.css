@@ -71,6 +71,7 @@
   }
 
 .Overview h1 {
+    margin-bottom: 1rem;
     text-align: left;
     font-family: 'Helvetica Bold';
 }
@@ -86,6 +87,7 @@
   }
 
 .Output h1 {
+  margin-bottom: 1rem;
     text-align: right;
     font-family: 'Helvetica Bold';
     font-weight: normal;
@@ -102,8 +104,36 @@
   }
 
 .Synthesis h1 {
+  margin-bottom: 1rem;
     text-align: left;
     font-family: 'Helvetica Bold';
     font-weight: normal;
 }
 
+.Documents h1{
+  margin-bottom: 1rem;
+}
+
+.Documents p{
+  margin-bottom: 1rem;
+}
+
+.AboutMe {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  font-family: 'Helvetica Bold';
+  max-width: 40rem;
+  max-width: 700px;
+}
+
+.AboutMe h1 {
+  margin-bottom: 1rem;
+  color:rgb(5, 217, 245);
+  text-align: left;
+}
+
+.AboutMe p{
+  font-family: 'Helvetica';
+  font-weight: 200;
+  text-align: justify;
+}
