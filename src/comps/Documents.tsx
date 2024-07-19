@@ -1,5 +1,4 @@
 
-import { Document, Page} from "react-pdf";
 import practicumReport from "../assets/PracticumReportNacionales.pdf";
 import resume from "../assets/Nacionales_Resume.pdf";
 import './DocViewer.css';
